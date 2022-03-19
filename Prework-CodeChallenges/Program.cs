@@ -8,16 +8,20 @@ namespace Prework_CodeChallenges
         {
             Console.WriteLine("Welcome to My Game");
             // ArrayMaxResult();
+
             // Console.WriteLine("Enter a Year to check if it's a Leap Year");
             // String inputYear = Console.ReadLine();
             // int year = int.Parse(inputYear);
             // Console.WriteLine(LeapYearCalculator(year));
-            int[] array1 = {2,2};
-            int[] array2 = {1,3,2};
-            int[] array3 = {0,2,-2};
-            Console.WriteLine("[2,2] " + PerfectSequence(array1));
-            Console.WriteLine("[1,3,2] " + PerfectSequence(array2));
-            Console.WriteLine("[0,2,-2] " + PerfectSequence(array3));
+
+            // int[] array1 = {2,2};
+            // int[] array2 = {1,3,2};
+            // int[] array3 = {0,2,-2};
+            // Console.WriteLine("[2,2] " + PerfectSequence(array1));
+            // Console.WriteLine("[1,3,2] " + PerfectSequence(array2));
+            // Console.WriteLine("[0,2,-2] " + PerfectSequence(array3));
+
+            SumOfRows();
         }
 
         static void ArrayMaxResult()
@@ -95,6 +99,56 @@ namespace Prework_CodeChallenges
             }
             if (sum != product) sequence = "No";
             return sequence;
+        }
+
+        static void SumOfRows()
+        {
+            Console.WriteLine("Enter the array length: ");
+            String userInput1 = Console.ReadLine();
+            int userInput1I = int.Parse(userInput1);
+            Console.WriteLine("Enter the array width: ");
+            String userInput2 = Console.ReadLine();
+            int userInput2I = int.Parse(userInput2);
+
+            int[,] myArray = new int[userInput1I, userInput2I];
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    myArray[i,j] = 2;
+                }
+            }
+            int sum1 = 0;
+            for (int i = 0; i < 1; i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    sum1 += myArray[i,j];
+                }
+            }
+            int sum2 = 0;
+            for (int i = 1; i < 2; i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    sum2 += myArray[i, j];
+                }
+            }
+            int sum3 = 0;
+            for (int i = 2; i < 3; i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    sum3 += myArray[i, j];
+                }
+            }
+            int [] array = {sum1 ,sum2 ,sum3 };
+            Console.Write("[ ");
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]+ " ");
+            }
+            Console.Write("]");
         }
     }
 }
