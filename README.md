@@ -20,3 +20,15 @@
 <br>
 
 ![Leap Year Calculator](./images/LeapYearCalculator.png)
+
+<br>
+<hr>
+<br>
+
+## Perfect Sequence
+1. Run my code.
+2. See What is Perfect Sequence and What is Not.
+
+<br>
+
+![Perfect Sequence](./images/PerfectSequence.png)
