@@ -7,7 +7,11 @@ namespace Prework_CodeChallenges
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to My Game");
-            ArrayMaxResult();
+            //ArrayMaxResult();
+            Console.WriteLine("Enter a Year to check if it's a Leap Year");
+            String inputYear = Console.ReadLine();
+            int year = int.Parse(inputYear);
+            Console.WriteLine(LeapYearCalculator(year));
         }
 
         static void ArrayMaxResult()
@@ -43,6 +47,27 @@ namespace Prework_CodeChallenges
                 if (array[i] == userInput2I) score += userInput2I;
             }
             Console.WriteLine("Score : " + score);
+        }
+
+        static String LeapYearCalculator(int year)
+        {
+            Boolean leap= false;
+            if (year % 4 == 0)
+            {
+                leap = true;
+                if (year % 100 == 0)
+                {
+                    leap = false;
+                    if (year % 400 == 0)
+                    {
+                        leap = true;
+                    }
+                }
+            }
+            if (leap)
+                return "Yes It is";
+            else
+            return "No it's Not";
         }
     }
 }
