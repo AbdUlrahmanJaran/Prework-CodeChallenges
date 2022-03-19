@@ -1,0 +1,16 @@
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.exe
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.deps.json
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.runtimeconfig.json
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.runtimeconfig.dev.json
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.dll
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\net5.0\Prework-CodeChallenges.pdb
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.csproj.AssemblyReference.cache
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.AssemblyInfoInputs.cache
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.AssemblyInfo.cs
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.dll
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\refint\Prework-CodeChallenges.dll
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.pdb
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\Prework-CodeChallenges.genruntimeconfig.cache
+C:\Users\user\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\net5.0\ref\Prework-CodeChallenges.dll
