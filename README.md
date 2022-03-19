@@ -32,3 +32,16 @@
 <br>
 
 ![Perfect Sequence](./images/PerfectSequence.png)
+
+<br>
+<hr>
+<br>
+
+## Sum of Rows
+1. Run my code.
+2. Enter the Array Length.
+3. Enter the Array Width.
+
+<br>
+
+![Sum of Rows](./images/SumOfRows.png)
