@@ -7,11 +7,17 @@ namespace Prework_CodeChallenges
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to My Game");
-            //ArrayMaxResult();
-            Console.WriteLine("Enter a Year to check if it's a Leap Year");
-            String inputYear = Console.ReadLine();
-            int year = int.Parse(inputYear);
-            Console.WriteLine(LeapYearCalculator(year));
+            // ArrayMaxResult();
+            // Console.WriteLine("Enter a Year to check if it's a Leap Year");
+            // String inputYear = Console.ReadLine();
+            // int year = int.Parse(inputYear);
+            // Console.WriteLine(LeapYearCalculator(year));
+            int[] array1 = {2,2};
+            int[] array2 = {1,3,2};
+            int[] array3 = {0,2,-2};
+            Console.WriteLine("[2,2] " + PerfectSequence(array1));
+            Console.WriteLine("[1,3,2] " + PerfectSequence(array2));
+            Console.WriteLine("[0,2,-2] " + PerfectSequence(array3));
         }
 
         static void ArrayMaxResult()
@@ -68,6 +74,27 @@ namespace Prework_CodeChallenges
                 return "Yes It is";
             else
             return "No it's Not";
+        }
+
+        static String PerfectSequence(int [] array)
+        {
+            String sequence = "Yes";
+            int sum = 0;
+            int product = 1;
+            for (int i = 0; i < array.Length; i++)
+            {
+                sum += array[i];
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                product *= array[i];
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] < 0) sequence = "No";
+            }
+            if (sum != product) sequence = "No";
+            return sequence;
         }
     }
 }
